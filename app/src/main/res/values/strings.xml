@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Study Buddy</string>
+    <string name="Activity2">Activity 2</string>
+    <string name="Activity3">Activity 3</string>
+    <string name="Activity4">Activity 4</string>
+    <string name="Activity5">Activity 5</string>
 </resources>
