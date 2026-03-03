@@ -4,4 +4,6 @@
     <string name="Activity3">Activity 3</string>
     <string name="Activity4">Activity 4</string>
     <string name="Activity5">Activity 5</string>
+    <string name="Next">Next</string>
+    <string name="Home">Back to Home</string>
 </resources>

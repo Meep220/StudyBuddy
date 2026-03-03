@@ -1,6 +1,9 @@
 package com.example.studybuddy;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +22,16 @@ public class Activity5 extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+        Button NextBtn = findViewById(R.id.NextBtn);
+        NextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //1. Create the Intent (From Login (Or Main Activity here) to next Activity (To Activity 2))
+                Intent intent = new Intent(Activity5.this, MainActivity.class);
+                //2. Then Start the Activity
+                startActivity(intent);
+            }
         });
     }
 }
